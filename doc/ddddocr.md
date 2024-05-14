@@ -11,7 +11,7 @@
 
 ```shell
 # 安装依赖
-pip install -r requirements.txt -i https://pypi.douban.com/simple
+pip install -r requirements_main.txt -i https://pypi.douban.com/simple
 
 # 运行  可选参数如下
 # --port 9898 指定端口,默认为9898

@@ -1,0 +1,5 @@
+onnxruntime
+Pillow
+numpy
+opencv-python==3.4.16.59
+Flask
