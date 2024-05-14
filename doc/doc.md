@@ -8,6 +8,21 @@ pip freeze > requirements.txt
 
 # 安装依赖文件
 pip install -r requirements.txt
+
+# requirements.txt 依赖
+onnxruntime
+Pillow
+numpy
+opencv-python==3.4.16.59
+Flask
+
+```
+
+### 运行
+
+```
+# 启动
+/usr/bin/python3 main.py --port 8080 --ocr --old --det
 ```
 
 
