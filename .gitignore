@@ -1,0 +1,19 @@
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### Python ###
+venv/
+
+### Mac ###
+.DS_Store
+
+# Log file
+*.log
+
+### Custom ###
