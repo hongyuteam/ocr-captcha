@@ -9,6 +9,13 @@ pip freeze > requirements.txt
 # 安装依赖文件
 pip install -r requirements.txt
 
+# 安装依赖文件 腾讯云 源
+pip install -r requirements.txt -i https://mirrors.cloud.tencent.com/pypi/simple
+
+# 查看依赖包位置
+pip show flask
+/home/ubuntu/.local/lib/python3.10/site-packages
+
 # requirements.txt 依赖
 onnxruntime
 Pillow
